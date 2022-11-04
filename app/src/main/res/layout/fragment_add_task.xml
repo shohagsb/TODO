@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="12dp"
-    tools:context=".add_task.AddTaskFragment">
+    tools:context=".ui.add_task.AddTaskFragment">
 
     <ImageView
         android:id="@+id/back_button"
@@ -22,7 +22,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Add Task Title"
+        android:layout_marginTop="22dp"
         app:layout_constraintStart_toStartOf="@+id/back_button"
         app:layout_constraintTop_toBottomOf="@+id/back_button" />
+
+    <Button
+        android:id="@+id/add_task_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Task"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/title_text"
+        app:layout_constraintStart_toStartOf="@+id/title_text"
+        app:layout_constraintTop_toBottomOf="@+id/title_text" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

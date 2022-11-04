@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/tasksFragment"
-        android:name="me.shohag.todo.tasks.TasksFragment"
+        android:name="me.shohag.todo.ui.tasks.TasksFragment"
         android:label="All Taks"
         tools:layout="@layout/fragment_tasks" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/addTaskFragment"
-        android:name="me.shohag.todo.add_task.AddTaskFragment"
+        android:name="me.shohag.todo.ui.add_task.AddTaskFragment"
         android:label="Add Task"
         tools:layout="@layout/fragment_add_task" />
 </navigation>
